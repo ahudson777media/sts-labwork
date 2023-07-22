@@ -1,9 +1,9 @@
 ---   #indicates the start of a yaml section
-all:
+all:  #establishes connection to a client/target with a module
   hosts:
     testsystem:
-      remote_tmp: C:\Users\user\Tmp
-      ansible_shell_typ: cmd
+      remote_tmp: C:\Users\user\tmp
+      ansible_shell_type: cmd
       ansible_connection: ssh
       ansible_host: 192.168.7.164
       ansible_user: user
